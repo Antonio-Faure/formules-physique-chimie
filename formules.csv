@@ -129,7 +129,7 @@ Premier principe de la thermodynamique;Capacité thermique;$\Delta U = m \times 
 Les acides et les bases;pKe;$\text{p}K_e = -\log(K_e) = 14,0$ à 25°C;$\text{p}K_e$: (sans unité), $K_e$: produit ionique de l'eau;—
 Suivi temporel d'une transformation chimique;Équation différentielle d'ordre 1;$-\frac{d[Y]}{dt} = k[Y]\;\text{soit}\;\frac{d[Y]}{dt} + k[Y] = 0$;$[Y]$: concentration, $k$: constante de vitesse, $t$: temps;$[Y]$: mol·L$^{-1}$, $k$: s$^{-1}$, $t$: s
 Dynamique du dipôle RC;Équation différentielle RC;$RC \times \frac{du_c}{dt} + u_c = E$;$R$: résistance, $C$: capacité, $u_c$: tension aux bornes du condensateur, $E$: tension source;$R$: $\Omega$, $C$: F, $u_c$: V, $E$: V
-Dynamique du dipôle RC;Solution générale équation différentielle RC;$u_c(t) = A \times e^{-t/\tau} + E$ avec $A$: constante déterminée par CI;$u_c$: tension, $\tau = RC$: constante de temps, $E$: tension source;$u_c$: V, $\tau$: s, $E$: V
+Dynamique du dipôle RC;Solution générale équation différentielle RC;$u_c(t) = A \times e^{-t/\tau} + E$;$u_c$: tension, $\tau = RC$: constante de temps, $E$: tension source;$u_c$: V, $\tau$: s, $E$: V
 Dynamique du dipôle RC;Valeur à $t = \tau$;$u_c(\tau) = E(1 - e^{-1}) \approx 0,63 \times E$;$u_c$: tension, $\tau$: constante de temps, $E$: tension source;$u_c$: V, $\tau$: s, $E$: V
 Décrire la lumière par un flux de photons;Énergie cinétique du photoélectron;$E_c = \frac{1}{2} m_e v^2$;$E_c$: énergie cinétique, $m_e$: masse de l'électron, $v$: vitesse;$E_c$: J, $m_e$: kg, $v$: m·s$^{-1}$
 Phénomènes ondulatoires;Angle de diffraction (fente rectangulaire);$\theta = \frac{\lambda}{a}$;$\theta$: angle de diffraction, $\lambda$: longueur d'onde, $a$: largeur de la fente;$\theta$: rad, $\lambda$: m, $a$: m
