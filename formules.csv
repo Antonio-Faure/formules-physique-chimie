@@ -42,7 +42,7 @@ Dosage par étalonnage;Absorbance;$I = \frac{I_0}{10^A}$;$I$: intensité lumineu
 Dosage par étalonnage;Loi de Beer-Lambert;$A = k \times C$;$A$: absorbance, $k$: coefficient proportionnalité, $C$: concentration;$A$: —, $k$: L·mol$^{-1}$, $C$: mol·L$^{-1}$
 
 Dosage par titrage;Réaction support de titrage;$a\ \text{A} + b\ \text{B} \rightarrow \text{produits}$;$a,b$: coefficients stœchiométriques, A: réactif titré, B: réactif titrant;—
-Dosage par titrage;Équivalence;$C_A \times V_A / a = C_B \times V_E / b$;$C$: concentration, $V$: volume, $a,b$: coefficients stœchiométriques;$C$: mol·L$^{-1}$, $V$: L
+Dosage par titrage;Équivalence;$\frac{C_A \times V_A}{a} = \frac{C_B \times V_E}{b}$;$C$: concentration, $V$: volume, $a,b$: coefficients stœchiométriques;$C$: mol·L$^{-1}$, $V$: L
 Bilan d'énergie d'un système;Bilan d'énergie général;$\Delta U + \Delta E_c + \Delta E_p = Q + W$;$\Delta U$: variation énergie interne, $\Delta E_c$: variation énergie cinétique, $\Delta E_p$: variation énergie potentielle, $Q$: transfert thermique, $W$: travail;J
 Bilan d'énergie d'un système;Variation d'énergie interne;$\Delta U = U(t_2) - U(t_1)$;$\Delta U$: variation énergie interne, $U$: énergie interne;J
 Bilan d'énergie d'un système;1er principe de la thermodynamique;$\Delta U = Q + W$;$\Delta U$: variation énergie interne, $Q$: transfert thermique, $W$: travail;J
