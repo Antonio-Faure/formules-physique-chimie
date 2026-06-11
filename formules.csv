@@ -25,7 +25,6 @@ Aspect énergétique des phénomènes mécaniques;Théorème de l'énergie ciné
 Énergie des systèmes électriques;Puissance électrique;$P = U \times I$;$P$: puissance, $U$: tension, $I$: intensité;$P$: W, $U$: V, $I$: A
 Énergie des systèmes électriques;Énergie électrique;$E = P \times \Delta t$;$E$: énergie, $P$: puissance, $\Delta t$: durée;$E$: J, $P$: W, $\Delta t$: s
 Énergie des systèmes électriques;Rendement d'un convertisseur;$\eta = \frac{E_{\text{utile}}}{E_{\text{reçue}}} = \frac{P_{\text{utile}}}{P_{\text{reçue}}}$;$\eta$: rendement (sans unité), $E$: énergie, $P$: puissance;—
-
 Description d'un fluide au repos;Masse volumique;$\rho = \frac{m}{V}$;$\rho$: masse volumique, $m$: masse, $V$: volume;$\rho$: kg·m$^{-3}$, $m$: kg, $V$: m$^3$
 Description d'un fluide au repos;Conversion température;$T(\text{K}) = \theta(°C) + 273,15$;$T$: température Kelvin, $\theta$: température Celsius;$T$: K, $\theta$: °C
 Description d'un fluide au repos;Force pressante;$F = P \times S$;$F$: force pressante, $P$: pression, $S$: surface;$F$: N, $P$: Pa, $S$: m$^2$
@@ -40,12 +39,10 @@ Les ondes mécaniques;Relation longueur d'onde-période;$\lambda = v \times T$;$
 Les ondes mécaniques;Relation longueur d'onde-fréquence;$\lambda = \frac{v}{f}$;$\lambda$: longueur d'onde, $v$: célérité, $f$: fréquence;$\lambda$: m, $v$: m·s$^{-1}$, $f$: Hz
 Dosage par étalonnage;Absorbance;$I = \frac{I_0}{10^A}$;$I$: intensité lumineuse après, $I_0$: intensité avant, $A$: absorbance;$A$: sans unité
 Dosage par étalonnage;Loi de Beer-Lambert;$A = k \times C$;$A$: absorbance, $k$: coefficient proportionnalité, $C$: concentration;$A$: —, $k$: L·mol$^{-1}$, $C$: mol·L$^{-1}$
-
 Dosage par titrage;Réaction support de titrage;$a\ \text{A} + b\ \text{B} \rightarrow \text{produits}$;$a,b$: coefficients stœchiométriques, A: réactif titré, B: réactif titrant;—
 Dosage par titrage;Équivalence;$\frac{C_A \times V_A}{a} = \frac{C_B \times V_E}{b}$;$C$: concentration, $V$: volume, $a,b$: coefficients stœchiométriques;$C$: mol·L$^{-1}$, $V$: L
-Bilan d'énergie d'un système;Bilan d'énergie général;$\Delta U + \Delta E_c + \Delta E_p = Q + W$;$\Delta U$: variation énergie interne, $\Delta E_c$: variation énergie cinétique, $\Delta E_p$: variation énergie potentielle, $Q$: transfert thermique, $W$: travail;J
+Bilan d'énergie d'un système;Bilan d'énergie général (1er principe);$\Delta U + \Delta E_c + \Delta E_p = Q + W$;$\Delta U$: variation énergie interne, $\Delta E_c$: variation énergie cinétique, $\Delta E_p$: variation énergie potentielle, $Q$: transfert thermique, $W$: travail;J
 Bilan d'énergie d'un système;Variation d'énergie interne;$\Delta U = U(t_2) - U(t_1)$;$\Delta U$: variation énergie interne, $U$: énergie interne;J
-Bilan d'énergie d'un système;1er principe de la thermodynamique;$\Delta U = Q + W$;$\Delta U$: variation énergie interne, $Q$: transfert thermique, $W$: travail;J
 Bilan d'énergie d'un système;Conservation énergie mécanique;$\Delta E_m = \Delta E_c + \Delta E_p = 0$;$\Delta E_m$: variation énergie mécanique, $\Delta E_c$: énergie cinétique, $\Delta E_p$: énergie potentielle;J
 Phénomènes ondulatoires;Théorème de Fourier;$f(t) = s_0 + \sum_{i=1}^{\infty} s_i(t)$;$f(t)$: fonction périodique, $s_0$: valeur moyenne, $s_i(t)$: fonctions sinusoïdales;—
 Phénomènes ondulatoires;Onde sinusoïdale temporelle;$s(t) = S_m \times \cos\left(\frac{2\pi}{T}t + \varphi\right) = S_m \times \cos(2\pi f t + \varphi)$;$s(t)$: signal, $S_m$: amplitude, $T$: période, $f$: fréquence, $\varphi$: phase;$s(t)$: unité variable, $T$: s, $f$: Hz, $\varphi$: rad
@@ -64,7 +61,6 @@ Mouvement dans un champ de gravitation;Vitesse d'un satellite;$v = \sqrt{\frac{G
 Mouvement dans un champ de gravitation;Période de révolution;$T = \frac{2\pi r}{v} = 2\pi \times \sqrt{\frac{r^3}{G \times M}}$;$T$: période, $r$: rayon, $v$: vitesse, $G$: constante gravitationnelle, $M$: masse;$T$: s, $r$: m, $M$: kg
 Mouvement dans un champ de gravitation;3e loi de Kepler;$\frac{T^2}{a^3} = \frac{4\pi^2}{G \times M_S}$;$T$: période, $a$: demi-grand axe, $G$: constante gravitationnelle, $M_S$: masse du Soleil;$T$: s, $a$: m, $M_S$: kg
 Premier principe de la thermodynamique;1er principe de la thermodynamique;$\Delta U = Q + W$;$\Delta U$: variation énergie interne, $Q$: transfert thermique, $W$: travail;J
-
 Stratégies de synthèse multi-étapes;Rendement d'une synthèse;$r = \frac{n_{\text{exp}}}{n_{\text{th}}} = \frac{m_{\text{exp}}}{m_{\text{th}}}$;$r$: rendement, $n$: quantité de matière, $m$: masse;—
 Sens d'évolution spontanée d'un système chimique;Taux d'avancement final;$\tau = \frac{x_f}{x_{\max}}$;$\tau$: taux d'avancement (sans unité), $x_f$: avancement final, $x_{\max}$: avancement maximal;—
 Sens d'évolution spontanée d'un système chimique;Quotient de réaction;$Q_r = \frac{a_D^d \times a_E^e}{a_B^b \times a_C^c}$;$Q_r$: quotient de réaction (sans unité), $a_X$: activité de X, $b,c,d,e$: coefficients stœchiométriques;—
@@ -77,6 +73,10 @@ Les acides et les bases;pH base forte;$\text{pH} = 14 + \log\left(\frac{C_B}{c_0
 Les acides et les bases;Produit ionique de l'eau;$K_e = \frac{[\text{H}_3\text{O}^+] \times [\text{HO}^-]}{(c_0)^2} = 1,0\times10^{-14}$ à 25°C;$K_e$: produit ionique (sans unité), $[\text{H}_3\text{O}^+]$: ions oxonium, $[\text{HO}^-]$: ions hydroxyde, $c_0$: 1 mol·L$^{-1}$;—
 Les acides et les bases;Constante d'acidité;$K_A = \frac{a_{\text{éq}}(A^-) \times a_{\text{éq}}(\text{H}_3\text{O}^+)}{a_{\text{éq}}(AH)}$;$K_A$: constante d'acidité (sans unité), $a$: activité;—
 Les acides et les bases;pKa;$\text{p}K_A = -\log(K_A)$ et $K_A = 10^{-\text{p}K_A}$;$\text{p}K_A$: (sans unité), $K_A$: constante d'acidité;—
+Les acides et les bases;Relation pH et pKa;$\text{pH} = \text{p}K_A + \log\left(\frac{[\text{A}^-]}{[\text{AH}]}\right)$;pH: potentiel hydrogène, $\text{p}K_A$: constante d'acidité, $[\text{A}^-]$: base conjuguée, $[\text{AH}]$: acide;pH, pKa: sans unité
+Les acides et les bases;pKe;$\text{p}K_e = -\log(K_e) = 14,0$ à 25°C;$\text{p}K_e$: (sans unité), $K_e$: produit ionique de l'eau;—
+Les acides et les bases;Activité de l'eau;$a(\text{H}_2\text{O}) = 1$;$a$: activité (sans unité);—
+Les acides et les bases;Auto-ionisation de l'eau;$2\ \text{H}_2\text{O}_{(l)} \rightleftharpoons \text{H}_3\text{O}^+_{(aq)} + \text{HO}^-_{(aq)}$;—;—
 Forcer l'évolution d'un système chimique;Quantité de charge électrique;$Q = I \times \Delta t$;$Q$: charge électrique, $I$: intensité, $\Delta t$: durée;$Q$: C, $I$: A, $\Delta t$: s
 Forcer l'évolution d'un système chimique;Charge et quantité d'électrons;$Q = n_e \times F$;$Q$: charge, $n_e$: quantité d'électrons, $F$: constante de Faraday;$Q$: C, $n_e$: mol, $F$: C·mol$^{-1}$
 Forcer l'évolution d'un système chimique;Constante de Faraday;$F = N_A \times e = 96\,500$ C·mol$^{-1}$;$F$: constante de Faraday, $N_A$: nombre d'Avogadro, $e$: charge élémentaire;$F$: C·mol$^{-1}$, $N_A$: mol$^{-1}$, $e$: C
@@ -89,9 +89,10 @@ Les différents types de dosage;Titre massique;$P_m = \frac{m_{\text{espèce}}}{
 Suivi temporel d'une transformation chimique;Vitesse volumique d'apparition;$v_A(X)(t) = \frac{d[X]}{dt}$;$v_A$: vitesse d'apparition, $[X]$: concentration;$v$: mol·L$^{-1}$·s$^{-1}$, $[X]$: mol·L$^{-1}$, $t$: s
 Suivi temporel d'une transformation chimique;Vitesse volumique de disparition;$v_D(Y)(t) = -\frac{d[Y]}{dt}$;$v_D$: vitesse de disparition, $[Y]$: concentration;$v$: mol·L$^{-1}$·s$^{-1}$, $[Y]$: mol·L$^{-1}$, $t$: s
 Suivi temporel d'une transformation chimique;Loi de vitesse d'ordre 1;$v_D(Y)(t) = k \times [Y](t)$;$v_D$: vitesse de disparition, $k$: constante de vitesse, $[Y]$: concentration;$v$: mol·L$^{-1}$·s$^{-1}$, $k$: s$^{-1}$, $[Y]$: mol·L$^{-1}$
-Suivi temporel d'une transformation chimique;Évolution ordre 1;$[Y](t) = [Y]_0 \times e^{-kt}$;$[Y]$: concentration, $[Y]_0$: concentration initiale, $k$: constante de vitesse;$[Y]$: mol·L$^{-1}$, $k$: s$^{-1}$
+Suivi temporel d'une transformation chimique;Concentration en fonction du temps (ordre 1);$[Y](t) = [Y]_0 \times e^{-kt}$;$[Y]$: concentration, $[Y]_0$: concentration initiale, $k$: constante de vitesse;$[Y]$: mol·L$^{-1}$, $k$: s$^{-1}$
 Suivi temporel d'une transformation chimique;Linéarisation ordre 1;$\ln([Y](t)) = \ln([Y]_0) - kt$;$[Y]$: concentration, $k$: constante de vitesse, $t$: temps;$[Y]$: mol·L$^{-1}$, $k$: s$^{-1}$
 Suivi temporel d'une transformation chimique;Temps de demi-réaction;$x(t_{1/2}) = \frac{x_f}{2}$;$x$: avancement, $t_{1/2}$: temps de demi-réaction, $x_f$: avancement final;$x$: mol, $t_{1/2}$: s
+Suivi temporel d'une transformation chimique;Équation différentielle d'ordre 1;$-\frac{d[Y]}{dt} = k[Y]\;\text{soit}\;\frac{d[Y]}{dt} + k[Y] = 0$;$[Y]$: concentration, $k$: constante de vitesse, $t$: temps;$[Y]$: mol·L$^{-1}$, $k$: s$^{-1}$, $t$: s
 Transformations nucléaires;Loi de décroissance radioactive;$\frac{dN(t)}{dt} = -\lambda \times N(t)$;$N$: nombre de noyaux, $\lambda$: constante radioactive, $t$: temps;$N$: —, $\lambda$: s$^{-1}$, $t$: s
 Transformations nucléaires;Loi de décroissance intégrée;$N(t) = N_0 \times e^{-\lambda t}$;$N$: nombre de noyaux, $N_0$: nombre initial, $\lambda$: constante radioactive;$N$: —, $\lambda$: s$^{-1}$
 Transformations nucléaires;Demi-vie;$t_{1/2} = \frac{\ln 2}{\lambda}$;$t_{1/2}$: demi-vie, $\lambda$: constante radioactive;$t_{1/2}$: s, $\lambda$: s$^{-1}$
@@ -100,63 +101,45 @@ Transformations nucléaires;Demi-vie;$t_{1/2} = \frac{\ln 2}{\lambda}$;$t_{1/2}$
 Écoulement d'un fluide;Relation de Bernoulli;$P_A + \frac{1}{2}\rho v_A^2 + \rho g h_A = P_B + \frac{1}{2}\rho v_B^2 + \rho g h_B$;$P$: pression, $\rho$: masse volumique, $v$: vitesse, $g$: pesanteur, $h$: hauteur;$P$: Pa, $\rho$: kg·m$^{-3}$, $v$: m·s$^{-1}$, $g$: N·kg$^{-1}$, $h$: m
 Écoulement d'un fluide;Effet Venturi;$P_A + \frac{1}{2}\rho v_A^2 = P_B + \frac{1}{2}\rho v_B^2$;$P$: pression, $\rho$: masse volumique, $v$: vitesse;$P$: Pa, $\rho$: kg·m$^{-3}$, $v$: m·s$^{-1}$
 Dynamique du dipôle RC;Intensité instantanée;$i(t) = \frac{dq(t)}{dt}$;$i$: intensité, $q$: charge électrique;$i$: A, $q$: C, $t$: s
-Dynamique du dipôle RC;Charge du condensateur;$q_A = C \times u_C$;$q_A$: charge, $C$: capacité, $u_C$: tension;$q$: C, $C$: F, $u$: V
+Dynamique du dipôle RC;Relation charge-tension du condensateur;$q_A = C \times u_C$;$q_A$: charge, $C$: capacité, $u_C$: tension;$q$: C, $C$: F, $u$: V
 Dynamique du dipôle RC;Capacité d'un condensateur plan;$C = \varepsilon \times \frac{S}{e}$;$C$: capacité, $\varepsilon$: permittivité du diélectrique, $S$: surface des armatures, $e$: épaisseur;$C$: F, $\varepsilon$: F·m$^{-1}$, $S$: m$^2$, $e$: m
 Dynamique du dipôle RC;Constante de temps RC;$\tau = R \times C$;$\tau$: constante de temps, $R$: résistance, $C$: capacité;$\tau$: s, $R$: $\Omega$, $C$: F
 Dynamique du dipôle RC;Charge du condensateur (tension);$u_c(t) = E(1 - e^{-t/\tau})$;$u_c$: tension aux bornes du condensateur, $E$: tension source, $\tau$: constante de temps;$u_c$: V, $E$: V, $\tau$: s
 Dynamique du dipôle RC;Loi des mailles RC;$E = u_R + u_c$;$E$: tension source, $u_R$: tension aux bornes de R, $u_c$: tension aux bornes de C;V
 Dynamique du dipôle RC;Loi d'Ohm;$u_R = R \times i$;$u_R$: tension, $R$: résistance, $i$: intensité;$u_R$: V, $R$: $\Omega$, $i$: A
+Dynamique du dipôle RC;Équation différentielle RC;$RC \times \frac{du_c}{dt} + u_c = E$;$R$: résistance, $C$: capacité, $u_c$: tension aux bornes du condensateur, $E$: tension source;$R$: $\Omega$, $C$: F, $u_c$: V, $E$: V
+Dynamique du dipôle RC;Solution générale équation différentielle RC;$u_c(t) = A \times e^{-t/\tau} + E$;$u_c$: tension, $\tau = RC$: constante de temps, $E$: tension source;$u_c$: V, $\tau$: s, $E$: V
+Dynamique du dipôle RC;Valeur à $t = \tau$;$u_c(\tau) = E(1 - e^{-1}) \approx 0,63 \times E$;$u_c$: tension, $\tau$: constante de temps, $E$: tension source;$u_c$: V, $\tau$: s, $E$: V
+Dynamique du dipôle RC;Décharge du condensateur;$u_c(t) = E \times e^{-t/\tau}$;$u_c$: tension, $E$: tension initiale, $\tau = RC$: constante de temps;$u_c$: V, $E$: V, $\tau$: s
+Dynamique du dipôle RC;Valeur à $t=\tau$ (décharge);$u_c(\tau) = E \times e^{-1} \approx 0,\!37 \times E$;$u_c$: tension, $\tau$: constante de temps, $E$: tension initiale;$u_c$: V, $\tau$: s, $E$: V
+Dynamique du dipôle RC;Équation différentielle décharge RC;$RC \times \frac{du_c}{dt} + u_c = 0$ soit $\frac{du_c}{dt} + \frac{1}{\tau}u_c = 0$;$R$: résistance, $C$: capacité, $u_c$: tension, $\tau = RC$;$R$: $\Omega$, $C$: F, $u_c$: V, $\tau$: s
 Lunette astronomique;Lunette afocale;$O_1O_2 = f'_1 + f'_2$;$O_1O_2$: distance entre lentilles, $f'_1$: distance focale objectif, $f'_2$: distance focale oculaire;m
 Lunette astronomique;Grossissement;$G = \frac{f'_1}{f'_2}$;$G$: grossissement (sans unité), $f'_1$: distance focale objectif, $f'_2$: distance focale oculaire;—
 Décrire la lumière par un flux de photons;Effet photoélectrique;$E = W_{\text{extraction}} + E_c$;$E$: énergie photon, $W_{\text{extraction}}$: énergie d'extraction, $E_c$: énergie cinétique de l'électron;$E$: J, $W$: J, $E_c$: J
 Décrire la lumière par un flux de photons;Rendement cellule photovoltaïque;$\eta = \frac{E_{\text{elec}}}{E_{\text{lum}}} = \frac{P_{\text{elec}}}{P_{\text{lum}}}$;$\eta$: rendement (sans unité), $E$: énergie, $P$: puissance;—
-
-
-
+Décrire la lumière par un flux de photons;Énergie cinétique du photoélectron;$E_c = \frac{1}{2} m_e v^2$;$E_c$: énergie cinétique, $m_e$: masse de l'électron, $v$: vitesse;$E_c$: J, $m_e$: kg, $v$: m·s$^{-1}$
 Phénomènes ondulatoires;Atténuation sonore;$\Delta L = L_1 - L_2$;$\Delta L$: atténuation, $L_1, L_2$: niveaux d'intensité sonore;$\Delta L$: dB
+Phénomènes ondulatoires;Angle de diffraction (fente rectangulaire);$\theta = \frac{\lambda}{a}$;$\theta$: angle de diffraction, $\lambda$: longueur d'onde, $a$: largeur de la fente;$\theta$: rad, $\lambda$: m, $a$: m
+Phénomènes ondulatoires;Angle de diffraction (ouverture circulaire);$\theta = 1,\!22 \times \frac{\lambda}{a}$;$\theta$: angle de diffraction, $\lambda$: longueur d'onde, $a$: diamètre;$\theta$: rad, $\lambda$: m, $a$: m
+Phénomènes ondulatoires;Largeur de la tache centrale de diffraction;$L = \frac{2\lambda D}{a}$;$L$: largeur tache centrale, $\lambda$: longueur d'onde, $D$: distance fente-écran, $a$: largeur fente;$L$: m, $\lambda$: m, $D$: m, $a$: m
+Phénomènes ondulatoires;Interférences (temporel);$\tau = kT$ (constructives), $\tau = (2k+1)\frac{T}{2}$ (destructives), $k \in \mathbb{Z}$;$\tau$: retard, $T$: période;$T$: s, $\tau$: s
+Phénomènes ondulatoires;Interférences (spatial);$\delta = k\lambda$ (constructives), $\delta = (2k+1)\frac{\lambda}{2}$ (destructives), $k \in \mathbb{Z}$;$\delta$: différence de marche, $\lambda$: longueur d'onde;$\delta$: m, $\lambda$: m
+Phénomènes ondulatoires;Interfrange (fentes d'Young);$i = \frac{\lambda D}{e}$;$i$: interfrange, $\lambda$: longueur d'onde, $D$: distance fentes-écran, $e$: écartement des fentes;$i$: m, $\lambda$: m, $D$: m, $e$: m
+Phénomènes ondulatoires;Effet Doppler;$f_R = f_E \times \frac{v}{v \mp v_s}$ (— rapprochement, + éloignement), $\Delta f = f_R - f_E$;$f_R$: fréquence reçue, $f_E$: fréquence émise, $v$: célérité, $v_s$: vitesse source, $\Delta f$: décalage Doppler;$f_R, f_E$: Hz, $v$: m·s$^{-1}$
+Phénomènes ondulatoires;Superposition de deux ondes;$s(t) = s_1(t) + s_2(t)$;$s$: signal résultant, $s_1, s_2$: signaux des deux ondes;unité variable
 Mécanique newtonienne;Norme de l'accélération;$a(t) = \sqrt{a_x^2 + a_y^2 + a_z^2}$;$a$: accélération, $a_x, a_y, a_z$: composantes;$a$: m·s$^{-2}$
 Mécanique newtonienne;Vecteur position;$\vec{OM}(t) = x(t) \cdot \vec{i} + y(t) \cdot \vec{j} + z(t) \cdot \vec{k}$;$\vec{OM}$: position, $x,y,z$: coordonnées, $\vec{i},\vec{j},\vec{k}$: vecteurs unitaires;$\vec{OM}$: m
-Mouvement dans un champ uniforme;Poids;$\vec{P} = m \times \vec{g}$;$\vec{P}$: poids, $m$: masse, $\vec{g}$: champ de pesanteur;$\vec{P}$: N, $m$: kg, $g$: N·kg$^{-1}$
+Mouvement dans un champ uniforme;Expression du poids;$\vec{P} = m \times \vec{g}$;$\vec{P}$: poids, $m$: masse, $\vec{g}$: champ de pesanteur;$\vec{P}$: N, $m$: kg, $g$: N·kg$^{-1}$
 Mouvement dans un champ uniforme;Variation d'énergie potentielle électrique;$\Delta E_p = -W_{A\to B}(\vec{F})$;$\Delta E_p$: variation d'énergie potentielle, $W$: travail de la force électrique;$\Delta E_p$: J, $W$: J
 Mouvement dans un champ uniforme;Composantes vitesse initiale;$v_x(0) = v_0 \cos \alpha,\; v_z(0) = v_0 \sin \alpha$;$v_0$: vitesse initiale, $\alpha$: angle de tir;$v$: m·s$^{-1}$, $\alpha$: rad ou deg
 Mouvement dans un champ uniforme;Vitesse en chute libre;$v_z(t) = -g \times t + v_0 \sin \alpha$;$v_z$: composante verticale de la vitesse, $g$: pesanteur, $t$: temps, $v_0$: vitesse initiale, $\alpha$: angle;$v_z$: m·s$^{-1}$, $g$: m·s$^{-2}$, $t$: s
 Mouvement dans un champ uniforme;Vitesse sous champ électrique;$v_z(t) = \frac{qE}{m} \times t + v_0 \sin \alpha$;$v_z$: composante verticale de vitesse, $q$: charge, $E$: champ électrique, $m$: masse, $t$: temps;$v_z$: m·s$^{-1}$, $q$: C, $E$: N·C$^{-1}$, $m$: kg, $t$: s
-Mouvement dans un champ de gravitation;Accélération dans le repère de Frenet;$\vec{a}(t) = a_t \cdot \vec{u}_t + a_n \cdot \vec{u}_n$;$a_t$: accélération tangentielle, $a_n$: accélération normale, $\vec{u}_t, \vec{u}_n$: vecteurs de Frenet;$a_t$: m·s$^{-2}$, $a_n$: m·s$^{-2}$
-Mouvement dans un champ de gravitation;Accélération tangentielle (MCU);$a_t = \frac{dv}{dt} = 0$;$a_t$: accélération tangentielle, $v$: vitesse;$a_t$: m·s$^{-2}$, $v$: m·s$^{-1}$
-Mouvement dans un champ de gravitation;Accélération normale (centripète);$a_n = \frac{v^2}{r}$;$a_n$: accélération normale, $v$: vitesse, $r$: rayon de courbure;$a_n$: m·s$^{-2}$, $v$: m·s$^{-1}$, $r$: m
-Premier principe de la thermodynamique;Capacité thermique;$\Delta U = m \times c \times \Delta T$;$\Delta U$: variation d'énergie interne, $m$: masse, $c$: capacité thermique massique, $\Delta T$: variation de température;$\Delta U$: J, $m$: kg, $c$: J·kg$^{-1}$·K$^{-1}$, $\Delta T$: K
-
-Les acides et les bases;pKe;$\text{p}K_e = -\log(K_e) = 14,0$ à 25°C;$\text{p}K_e$: (sans unité), $K_e$: produit ionique de l'eau;—
-Suivi temporel d'une transformation chimique;Équation différentielle d'ordre 1;$-\frac{d[Y]}{dt} = k[Y]\;\text{soit}\;\frac{d[Y]}{dt} + k[Y] = 0$;$[Y]$: concentration, $k$: constante de vitesse, $t$: temps;$[Y]$: mol·L$^{-1}$, $k$: s$^{-1}$, $t$: s
-Dynamique du dipôle RC;Équation différentielle RC;$RC \times \frac{du_c}{dt} + u_c = E$;$R$: résistance, $C$: capacité, $u_c$: tension aux bornes du condensateur, $E$: tension source;$R$: $\Omega$, $C$: F, $u_c$: V, $E$: V
-Dynamique du dipôle RC;Solution générale équation différentielle RC;$u_c(t) = A \times e^{-t/\tau} + E$;$u_c$: tension, $\tau = RC$: constante de temps, $E$: tension source;$u_c$: V, $\tau$: s, $E$: V
-Dynamique du dipôle RC;Valeur à $t = \tau$;$u_c(\tau) = E(1 - e^{-1}) \approx 0,63 \times E$;$u_c$: tension, $\tau$: constante de temps, $E$: tension source;$u_c$: V, $\tau$: s, $E$: V
-Décrire la lumière par un flux de photons;Énergie cinétique du photoélectron;$E_c = \frac{1}{2} m_e v^2$;$E_c$: énergie cinétique, $m_e$: masse de l'électron, $v$: vitesse;$E_c$: J, $m_e$: kg, $v$: m·s$^{-1}$
-Phénomènes ondulatoires;Angle de diffraction (fente rectangulaire);$\theta = \frac{\lambda}{a}$;$\theta$: angle de diffraction, $\lambda$: longueur d'onde, $a$: largeur de la fente;$\theta$: rad, $\lambda$: m, $a$: m
-Phénomènes ondulatoires;Angle de diffraction (ouverture circulaire);$\theta = 1,\!22 \times \frac{\lambda}{a}$;$\theta$: angle de diffraction, $\lambda$: longueur d'onde, $a$: diamètre;$\theta$: rad, $\lambda$: m, $a$: m
-Phénomènes ondulatoires;Largeur de la tache centrale de diffraction;$L = \frac{2\lambda D}{a}$;$L$: largeur tache centrale, $\lambda$: longueur d'onde, $D$: distance fente-écran, $a$: largeur fente;$L$: m, $\lambda$: m, $D$: m, $a$: m
-Phénomènes ondulatoires;Interférences constructives (temporel);$\tau = kT$ avec $k \in \mathbb{Z}$;$\tau$: retard, $T$: période;$T$: s, $\tau$: s
-Phénomènes ondulatoires;Interférences destructives (temporel);$\tau = (2k+1)\frac{T}{2}$ avec $k \in \mathbb{Z}$;$\tau$: retard, $T$: période;$T$: s, $\tau$: s
-Phénomènes ondulatoires;Interférences constructives (spatial);$\delta = k\lambda$ avec $k \in \mathbb{Z}$;$\delta$: différence de marche, $\lambda$: longueur d'onde;$\delta$: m, $\lambda$: m
-Phénomènes ondulatoires;Interférences destructives (spatial);$\delta = (2k+1)\frac{\lambda}{2}$ avec $k \in \mathbb{Z}$;$\delta$: différence de marche, $\lambda$: longueur d'onde;$\delta$: m, $\lambda$: m
-Phénomènes ondulatoires;Interfrange (fentes d'Young);$i = \frac{\lambda D}{e}$;$i$: interfrange, $\lambda$: longueur d'onde, $D$: distance fentes-écran, $e$: écartement des fentes;$i$: m, $\lambda$: m, $D$: m, $e$: m
-Phénomènes ondulatoires;Effet Doppler (rapprochement);$f_R = f_E \times \frac{v_{\text{onde}}}{v_{\text{onde}} - v}$;$f_R$: fréquence reçue, $f_E$: fréquence émise, $v_{\text{onde}}$: vitesse de l'onde, $v$: vitesse source;$f_R, f_E$: Hz, $v$: m·s$^{-1}$
-Phénomènes ondulatoires;Effet Doppler (éloignement);$f_R = f_E \times \frac{v_{\text{onde}}}{v_{\text{onde}} + v}$;$f_R$: fréquence reçue, $f_E$: fréquence émise, $v_{\text{onde}}$: vitesse de l'onde, $v$: vitesse source;$f_R, f_E$: Hz, $v$: m·s$^{-1}$
-Phénomènes ondulatoires;Décalage Doppler;$\Delta f = f_R - f_E$;$\Delta f$: décalage en fréquence, $f_R$: fréquence reçue, $f_E$: fréquence émise;$\Delta f$: Hz
-Dynamique du dipôle RC;Décharge du condensateur;$u_c(t) = E \times e^{-t/\tau}$;$u_c$: tension, $E$: tension initiale, $\tau = RC$: constante de temps;$u_c$: V, $E$: V, $\tau$: s
-Dynamique du dipôle RC;Valeur à $t=\tau$ (décharge);$u_c(\tau) = E \times e^{-1} \approx 0,\!37 \times E$;$u_c$: tension, $\tau$: constante de temps, $E$: tension initiale;$u_c$: V, $\tau$: s, $E$: V
-Dynamique du dipôle RC;Équation différentielle décharge RC;$RC \times \frac{du_c}{dt} + u_c = 0$ soit $\frac{du_c}{dt} + \frac{1}{\tau}u_c = 0$;$R$: résistance, $C$: capacité, $u_c$: tension, $\tau = RC$;$R$: $\Omega$, $C$: F, $u_c$: V, $\tau$: s
-
-Premier principe de la thermodynamique;Conversion volume;$1\ \text{m}^3 = 10^3\ \text{L}$;—;—
-Premier principe de la thermodynamique;Conversion masse;$1\ \text{kg} = 10^3\ \text{g}$;—;—
-Aspect énergétique des phénomènes mécaniques;Énergie mécanique;$E_m = E_c + E_p$;$E_m$: énergie mécanique, $E_c$: énergie cinétique, $E_p$: énergie potentielle;$E_m$: J, $E_c$: J, $E_p$: J
-
 Mouvement dans un champ uniforme;Équations horaires (chute libre);$\begin{cases} x(t) = v_0 \cos\alpha \times t \\ z(t) = -\frac{1}{2}gt^2 + v_0 \sin\alpha \times t + h \end{cases}$;$x,z$: coordonnées, $v_0$: vitesse initiale, $\alpha$: angle, $g$: pesanteur, $h$: hauteur initiale;$x,z$: m, $v_0$: m·s$^{-1}$, $g$: m·s$^{-2}$, $t$: s
 Mouvement dans un champ uniforme;Équation de la trajectoire (chute libre);$z(x) = -\frac{g}{2v_0^2\cos^2\alpha}x^2 + \tan\alpha \times x + h$;$z$: altitude, $x$: distance horizontale, $v_0$: vitesse initiale, $\alpha$: angle, $g$: pesanteur, $h$: hauteur;$z,x$: m, $v_0$: m·s$^{-1}$, $g$: m·s$^{-2}$
 Mouvement dans un champ uniforme;Équations horaires (champ électrique);$\begin{cases} x(t) = v_0 \cos\alpha \times t \\ z(t) = \frac{qE}{2m}t^2 + v_0 \sin\alpha \times t + h \end{cases}$;$x,z$: coordonnées, $q$: charge, $E$: champ électrique, $m$: masse, $v_0$: vitesse initiale, $\alpha$: angle;$x,z$: m, $q$: C, $E$: N·C$^{-1}$, $m$: kg
+Mouvement dans un champ de gravitation;Accélération dans le repère de Frenet;$\vec{a} = a_t \cdot \vec{u}_t + a_n \cdot \vec{u}_n$, avec $a_t = \frac{dv}{dt}$ (nulle en MCU) et $a_n = \frac{v^2}{r}$;$a_t$: accélération tangentielle, $a_n$: accélération normale (centripète), $\vec{u}_t, \vec{u}_n$: vecteurs de Frenet, $v$: vitesse, $r$: rayon de courbure;$a_t$: m·s$^{-2}$, $a_n$: m·s$^{-2}$, $v$: m·s$^{-1}$, $r$: m
 Sens d'évolution spontanée d'un système chimique;Concentration de référence;$c_0 = 1$ mol·L$^{-1}$;$c_0$: concentration de référence;mol·L$^{-1}$
-Les acides et les bases;Activité de l'eau;$a(\text{H}_2\text{O}) = 1$;$a$: activité (sans unité);—
-Les acides et les bases;Auto-ionisation de l'eau;$2\ \text{H}_2\text{O}_{(l)} \rightleftharpoons \text{H}_3\text{O}^+_{(aq)} + \text{HO}^-_{(aq)}$;—;—
-
-
-Phénomènes ondulatoires;Superposition de deux ondes;$s(t) = s_1(t) + s_2(t)$;$s$: signal résultant, $s_1, s_2$: signaux des deux ondes;unité variable
+Premier principe de la thermodynamique;Capacité thermique;$\Delta U = m \times c \times \Delta T$;$\Delta U$: variation d'énergie interne, $m$: masse, $c$: capacité thermique massique, $\Delta T$: variation de température;$\Delta U$: J, $m$: kg, $c$: J·kg$^{-1}$·K$^{-1}$, $\Delta T$: K
+Premier principe de la thermodynamique;Conversion volume;$1\ \text{m}^3 = 10^3\ \text{L}$;—;—
+Premier principe de la thermodynamique;Conversion masse;$1\ \text{kg} = 10^3\ \text{g}$;—;—
+Aspect énergétique des phénomènes mécaniques;Énergie mécanique;$E_m = E_c + E_p$;$E_m$: énergie mécanique, $E_c$: énergie cinétique, $E_p$: énergie potentielle;$E_m$: J, $E_c$: J, $E_p$: J
