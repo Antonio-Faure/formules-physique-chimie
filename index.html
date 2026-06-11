@@ -60,9 +60,9 @@ html[data-force-chrome] .theme-toggle{display:none}
 .results-section{animation:fadeInUp .8s ease-out .4s backwards}
 .results-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}
 .card{position:relative;background:var(--bg-card);backdrop-filter:blur(10px);border:1px solid var(--border);border-radius:16px;padding:24px;animation:fadeSlideIn .4s ease;transition:all .3s ease}
-.fav-btn{position:absolute;top:12px;right:12px;cursor:pointer;font-size:1.3rem;opacity:.25;background:none;border:none;padding:4px;line-height:1;transition:opacity .2s,transform .2s;z-index:1}
-.fav-btn:hover{opacity:.6;transform:scale(1.2)}
-.fav-btn.active{opacity:1}
+.fav-btn{position:absolute;top:12px;right:12px;cursor:pointer;font-size:1.3rem;color:var(--text-muted);background:none;border:none;padding:4px;line-height:1;transition:color .2s,transform .2s;z-index:1}
+.fav-btn:hover{color:var(--accent);transform:scale(1.2)}
+.fav-btn.active{color:#f5b342}
 .fav-toggle{cursor:pointer;display:inline-flex;align-items:center;gap:6px;font-size:.8rem;color:var(--text-muted);font-weight:600;text-transform:uppercase;letter-spacing:1px;padding:6px 14px;border-radius:8px;background:var(--bg-hover);border:1px solid var(--border);transition:all .2s;font-family:var(--font-body)}
 .fav-toggle.active{background:var(--accent);color:white;border-color:var(--accent)}
 .card:hover{transform:translateY(-5px);border-color:var(--accent);box-shadow:var(--shadow),var(--glow)}
