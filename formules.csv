@@ -114,7 +114,7 @@ Dynamique du dipôle RC;Décharge du condensateur;$u_c(t) = E \times e^{-t/\tau}
 Dynamique du dipôle RC;Valeur à $t=\tau$ (décharge);$u_c(\tau) = E \times e^{-1} \approx 0,\!37 \times E$;$u_c$: tension, $\tau$: constante de temps, $E$: tension initiale;$u_c$: V, $\tau$: s, $E$: V
 Dynamique du dipôle RC;Équation différentielle décharge RC;$RC \times \frac{du_c}{dt} + u_c = 0$ soit $\frac{du_c}{dt} + \frac{1}{\tau}u_c = 0$;$R$: résistance, $C$: capacité, $u_c$: tension, $\tau = RC$;$R$: $\Omega$, $C$: F, $u_c$: V, $\tau$: s
 Lunette astronomique;Lunette afocale;$O_1O_2 = f'_1 + f'_2$;$O_1O_2$: distance entre lentilles, $f'_1$: distance focale objectif, $f'_2$: distance focale oculaire;m
-Lunette astronomique;Grossissement;$G = \frac{f'_1}{f'_2}$;$G$: grossissement (sans unité), $f'_1$: distance focale objectif, $f'_2$: distance focale oculaire;—
+Lunette astronomique;Grossissement;$G = \frac{\theta'}{\theta} = \frac{f'_1}{f'_2}$;$G$: grossissement (sans unité), $\theta$: angle objet, $\theta'$: angle image, $f'_1$: distance focale objectif, $f'_2$: distance focale oculaire;—
 Décrire la lumière par un flux de photons;Effet photoélectrique;$E = W_{\text{extraction}} + E_c$;$E$: énergie photon, $W_{\text{extraction}}$: énergie d'extraction, $E_c$: énergie cinétique de l'électron;$E$: J, $W$: J, $E_c$: J
 Décrire la lumière par un flux de photons;Rendement cellule photovoltaïque;$\eta = \frac{E_{\text{elec}}}{E_{\text{lum}}} = \frac{P_{\text{elec}}}{P_{\text{lum}}}$;$\eta$: rendement (sans unité), $E$: énergie, $P$: puissance;—
 Décrire la lumière par un flux de photons;Énergie cinétique du photoélectron;$E_c = \frac{1}{2} m_e v^2$;$E_c$: énergie cinétique, $m_e$: masse de l'électron, $v$: vitesse;$E_c$: J, $m_e$: kg, $v$: m·s$^{-1}$
